@@ -1,0 +1,33 @@
+{
+  "id": "Fragebogen",
+  "title": [
+    {
+      "lang": "de",
+      "value": "IQB Fragebögen"
+    }
+  ],
+  "csv_delimiter": ",",
+  "base": "https://w3id.org/iqb/v37",
+  "outDir": "./",
+  "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "vocabularies": [
+    {
+      "id": "zg",
+      "title": [
+        {
+          "lang": "de",
+          "value": "BT Zuletzt genehmigt"
+        }
+      ],
+      "filenameSource": "zg_Zuletzt_genehmigt.csv",
+      "filenameTarget": "zg_Zuletzt_genehmigt.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
