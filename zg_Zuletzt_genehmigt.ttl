@@ -63,6 +63,12 @@ n1:a6a
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "BT 2030"@de.
+n1:r2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "extra"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -77,4 +83,5 @@ n0:
 		n1:q9r,
 		n1:a6g,
 		n1:s2r,
-		n1:a6a.
+		n1:a6a,
+		n1:r2b.
