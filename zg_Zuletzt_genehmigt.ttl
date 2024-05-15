@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v37/zg/>. 
 @prefix n1: <https://w3id.org/iqb/v37/zg/>. 
 
@@ -67,6 +68,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "IQB Fragebögen - BT Zuletzt genehmigt"@de;
+	dc:title "IQB Fragebögen - BT Zuletzt genehmigt"@de;
+	dc:description "IQB Fragebögen - BT Zuletzt genehmigt"@de;
 	skos:hasTopConcept
 		n1:p2u,
 		n1:v6c,
